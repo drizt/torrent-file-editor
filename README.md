@@ -30,6 +30,8 @@ Will build Qt4 version by default
     cmake -DCMAKE_BUILD_TYPE=Release -DQT5_BUILD=OFF ..
     make
 
+If building Qt5 version on Ubuntu 18.04+, install required Qt5LinguistTools from `qttools5-dev` package.
+
 **Mac OS X:**
 
 Only Qt5 version
